@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/logo.png" alt="F1Metrics Logo" width="80" />
+  <img src="./frontend//public/logo.png" alt="F1Metrics Logo" width="80" />
 </p>
 
 <h1 align="center">F1Metrics</h1>
