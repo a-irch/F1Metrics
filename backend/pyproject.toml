@@ -3,7 +3,7 @@ name = "backend"
 version = "0.1.0"
 description = "A cool API for F1Metrics project"
 authors = [
-    {name = "Rocc Irch",email = "RoccIrch@proton.me"}
+    {name = "Rocc Irch",email = "f1.metrics@proton.me"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"

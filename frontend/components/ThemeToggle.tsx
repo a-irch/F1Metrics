@@ -30,10 +30,9 @@ export default function ThemeToggle() {
     setTheme((prev) => (prev === 'light' ? 'dark' : 'light'))
   }
 
-  if (!mounted) return null // Prevent hydration mismatch
+  if (!mounted) return null 
 
   return (
-    <div className="absolute top-4 right-4 z-50">
       <Button
         variant="ghost"
         size="icon"
@@ -41,11 +40,10 @@ export default function ThemeToggle() {
         aria-label="Toggle Theme"
       >
         {theme === 'dark' ? (
-          <Sun className="h-5 w-5" />
+          <Sun />
         ) : (
-          <Moon className="h-5 w-5" />
+          <Moon />
         )}
       </Button>
-    </div>
   )
 }

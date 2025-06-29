@@ -38,7 +38,7 @@
 
 ``` bash
 git clone https://github.com/a-irch/F1Metrics
-cd f1metrics/frontend
+cd F1Metrics/frontend
 cp .env.example .env
 npm install
 npm run dev
